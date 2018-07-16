@@ -1,0 +1,57 @@
+Micorservices foundations:
+Avoiding latency/gridlocks.(Hystrix implemenatation)
+Eventual consistency v/s making everything transcational.
+Asynchronous approach is better. -> Event driven microservices architecture. + kafka
+Logging & tracing -> Unified logging strategies across entire platform , Log aggregators, Use trace id for given call stack.
+CI/CD pipeline -> Continous delivery model is required.
+
+Hierarchical Service architecture:
+Define the rules which service type can service which service type.
+
+Examples:
+Dataservices/BusinessProcessServices/GateWayServices/EdgeServices
+
+Service-based architecture:
+Single underlying database.
+
+
+Tasks to analyse before starting:
+1)CI/CD pipeline.
+2)Logging & tracing
+3)Leverage Domain driven design. Find service boundaries. ACID/Eventual consistency.
+4)Consider non-blocking code.
+5)Start designing the system asynchronously until you prove it should be synchronous.
+6)API layer should be only a proxy layer.
+
+
+Config server:
+Keyword: @EnableConfigServer
+
+server.port = 9000
+spring.config.name=configServer
+spring.cloud.config.server.git.uri=https://github.com/rahoofkv715/config-server.git
+
+https://github.com/rahoofkv715/config-server
+=> roomservices.properties => server.port=8101
+
+Room services: Will start on 8101 port.
+
+bootstrap.properties
+spring.application.name=roomservices
+spring.cloud.config.uri=http://localhost:9000
+
+
+Highlevel microservice design:
+
+Clients
+
+Zuul Server(Edge server)
+Ribbon(Load Balancer)
+Hystrix(Circuit breaker)
+
+Eureka server(Service discovery and registration)       Hystrix dashboard and Tubine
+
+
+API1 ----API2 ------ API3
+DB1  ---- DB2 ------ DB3
+
