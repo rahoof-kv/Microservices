@@ -55,3 +55,10 @@ Eureka server(Service discovery and registration)       Hystrix dashboard and Tu
 API1 ----API2 ------ API3
 DB1  ---- DB2 ------ DB3
 
+
+Logging: Spring Cloud Sleuth 
+Spring Cloud Sleuth adds two types of IDs to your logging, one called a trace ID and the other called a span ID. 
+The span ID represents a basic unit of work, for example sending an HTTP request. 
+The trace ID contains a set of span IDs, forming a tree-like structure. The trace ID will remain the same as one microservice calls the next. 
+
+http://ryanjbaxter.com/cloud/spring%20cloud/spring/2016/07/07/spring-cloud-sleuth.html
