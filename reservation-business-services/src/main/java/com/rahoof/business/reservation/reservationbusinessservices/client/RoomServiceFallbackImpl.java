@@ -4,7 +4,6 @@ import com.google.common.collect.Lists;
 import com.rahoof.business.reservation.reservationbusinessservices.domain.Room;
 import org.springframework.stereotype.Component;
 
-import java.util.Collections;
 import java.util.List;
 
 @Component
@@ -19,4 +18,16 @@ public class RoomServiceFallbackImpl implements RoomService {
         room.setRoomNo("rahoof room number");
         return Lists.newArrayList(room);
     }
+
+    @Override
+    public List<Room> findRoomsByBedInfo(String bedInfo){
+        Room room = new Room();
+        room.setId(2434242);
+        room.setBedInfo("bed info sample");
+        room.setName("bed info name");
+        room.setRoomNo("bed info room number");
+        return Lists.newArrayList(room);
+    }
+
+
 }

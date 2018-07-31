@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="reservation-business-services" />
+        <module name="room-services" />
+        <module name="streamkafka" />
+        <module name="zipkin-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="reservaion-business-services" target="1.8" />
+      <module name="reservation-business-services" target="1.8" />
+      <module name="room-services" target="1.8" />
+      <module name="sleuth_main" target="1.8" />
+      <module name="sleuth_test" target="1.8" />
+      <module name="streamkafka" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

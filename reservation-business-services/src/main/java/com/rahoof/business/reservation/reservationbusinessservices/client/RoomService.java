@@ -2,6 +2,7 @@ package com.rahoof.business.reservation.reservationbusinessservices.client;
 
 import com.rahoof.business.reservation.reservationbusinessservices.domain.Room;
 import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,4 +14,7 @@ public interface RoomService {
 
     @RequestMapping(value = "/rooms", method = RequestMethod.GET)
     List<Room> findAll(@RequestParam(name = "roomNumber", required = false) String roomNumber);
+
+    @RequestMapping(value = "/rooms/bedInfo", method = RequestMethod.GET)
+    List<Room> findRoomsByBedInfo(@RequestParam(name = "bedInfo", required = false) String bedInfo);
 }
