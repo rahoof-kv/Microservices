@@ -4,6 +4,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @Api(value = "rooms", description = "Data service operation on rooms", tags = "rooms")
+@PreAuthorize("hasAnyRole('ADMIN', 'USER')")
 public class RoomController {
     @Autowired
     private RoomRepository roomRepository;

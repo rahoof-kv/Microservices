@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-resource/auth-resource.iml" filepath="$PROJECT_DIR$/auth-resource/auth-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/auth-server/auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/reservation-business-services/reservation-business-services.iml" filepath="$PROJECT_DIR$/reservation-business-services/reservation-business-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/room-services/room-services.iml" filepath="$PROJECT_DIR$/room-services/room-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/streamkafka/streamkafka.iml" filepath="$PROJECT_DIR$/streamkafka/streamkafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-client/zuul-service.iml" filepath="$PROJECT_DIR$/auth-client/zuul-service.iml" />
     </modules>
   </component>
 </project>

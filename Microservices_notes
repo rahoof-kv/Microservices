@@ -1,4 +1,4 @@
-Micorservices foundations:
+Microservices foundations:
 Avoiding latency/gridlocks.(Hystrix implemenatation)
 Eventual consistency v/s making everything transcational.
 Asynchronous approach is better. -> Event driven microservices architecture. + kafka
@@ -18,7 +18,7 @@ Single underlying database.
 Tasks to analyse before starting:
 1)CI/CD pipeline.
 2)Logging & tracing
-3)Leverage Domain driven design. Find service boundaries. ACID/Eventual consistency.
+3)Leverage event driven design. Find service boundaries. ACID/Eventual consistency.
 4)Consider non-blocking code.
 5)Start designing the system asynchronously until you prove it should be synchronous.
 6)API layer should be only a proxy layer.
@@ -71,3 +71,14 @@ Hystrix:
 http://localhost:8500/hystrix
 
 Hystrix Dashboard : http://localhost:8500/hystrix.stream
+
+Admin url: http://localhost:9999
+
+Authentication:
+Different grants:
+
+Authorization code grant
+Implicit grant
+Resource owner credentials grant
+Client credentials grant
+Refresh token grant

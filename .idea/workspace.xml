@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2239a36f-08c6-4194-8498-3f1c8caf949c" name="Default" comment="">
+    <list default="true" id="2239a36f-08c6-4194-8498-3f1c8caf949c" name="Default" comment="Admin server">
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/AuthResourceApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/config/ResourceConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/controller/PersonInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/controller/ResourceController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/model/Person.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-resource/src/test/java/com/baeldung/service/personservice/PersonserviceApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/AuthServerApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/AuthServerConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/WebMvcConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/WebSecurityConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/certificate/mykeystore.jks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Microservices_notes" afterPath="$PROJECT_DIR$/Microservices_notes" />
+      <change beforePath="$PROJECT_DIR$/reservation-business-services/pom.xml" afterPath="$PROJECT_DIR$/reservation-business-services/pom.xml" />
       <change beforePath="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java" afterPath="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java" />
+      <change beforePath="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" />
+      <change beforePath="$PROJECT_DIR$/room-services/pom.xml" afterPath="$PROJECT_DIR$/room-services/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java" afterPath="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java" />
+      <change beforePath="$PROJECT_DIR$/room-services/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/room-services/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/ZuulServerApplication.java" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/ZuulServerApplication.java" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter 1/01_02/End/spring-cloud/room-services/target/" />
     <ignored path="$PROJECT_DIR$/room-services/target/" />
@@ -16,6 +46,12 @@
     <ignored path="$PROJECT_DIR$/sleuth/build/" />
     <ignored path="$PROJECT_DIR$/sleuth/out/" />
     <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/services-admin/target/" />
+    <ignored path="$PROJECT_DIR$/admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/auth-client/target/" />
+    <ignored path="$PROJECT_DIR$/auth-resource/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,34 +73,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/room-services/pom.xml">
+      <file leaf-file-name="pubkey.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubkey.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Microservices_notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Microservices_notes">
+      <file leaf-file-name="CloudSiteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/controller/CloudSiteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomReservationController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java">
+      <file leaf-file-name="SiteSecurityConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/config/SiteSecurityConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/filters/SimpleFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personinfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-client/src/main/resources/templates/personinfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/AuthServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-74">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonInfoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/controller/PersonInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebMvcConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/WebMvcConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +181,26 @@
       <find>8101</find>
       <find>ROOMSERVICES</find>
       <find>9411</find>
+      <find>admin.version</find>
+      <find>pring.boot.admin.version</find>
+      <find>de.codecentric</find>
+      <find>secu</find>
+      <find>sec</find>
+      <find>9999</find>
+      <find>reservationbusinessservices</find>
+      <find>spring-boot-admin-starter-client</find>
+      <find>OAuth2RestTemplate</find>
+      <find>WebSecurityConfigurerAdapter</find>
+      <find>SiteSecurityConfigurer</find>
+      <find>8080</find>
+      <find>9000</find>
+      <find>JwtAccessTokenConverter</find>
+      <find>AuthorizationServerEndpointsConfigurer</find>
+      <find>authenticationManager</find>
     </findStrings>
+    <replaceStrings>
+      <replace>9100</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,41 +232,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/Room.java" />
-        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomRepository.java" />
-        <option value="$PROJECT_DIR$/room-services/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/java/com/rahoof/service/config/configserver/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/room-services/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/rahoof/service/discovery/eurekaserver/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomServicesApplication.java" />
-        <option value="$PROJECT_DIR$/reservaion-business-services/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/reservaion-business-services/pom.xml" />
-        <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/domain/Room.java" />
-        <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/ReservationBusinessServicesApplication.java" />
-        <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/client/RoomService.java" />
-        <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/client/RoomServiceFallbackImpl.java" />
-        <option value="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/stream/SampleStreams.java" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/config/StreamsConfig.java" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/domain/Greetings.java" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/listener/GreetingListener.java" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/controller/GreetingController.java" />
-        <option value="$PROJECT_DIR$/streamkafka/src/main/java/com/rahoof/streamkafka/streamkafka/service/GreetingService.java" />
         <option value="$PROJECT_DIR$/streamkafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/reservation-business-services/pom.xml" />
         <option value="$PROJECT_DIR$/streamkafka/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/target/classes/application.properties" />
         <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/rahoof/zipkin/ZipkinServerApplication.java" />
-        <option value="$PROJECT_DIR$/room-services/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/rahoof/service/discovery/eurekaserver/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/rahoof/service/discovery/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/java/com/rahoof/admin/adminserver/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/java/com/rahoof/admin/adminserver/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/codes/monkey/bootauth/AuthServerApplication.java" />
         <option value="$PROJECT_DIR$/Microservices_notes" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/reservation-business-services/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/resources/bootstrap1.properties" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/config/SiteSecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/auth-client/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/ZoolServerApplication.java" />
+        <option value="$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/AuthResourceApplication.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/AuthServer.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/AuthServerApplication.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/controller/CloudSiteController.java" />
+        <option value="$PROJECT_DIR$/auth-resource/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/room-services/pom.xml" />
+        <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/config/ResourceConfigurer.java" />
+        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/config/ResourceConfigurer.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java" />
+        <option value="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/AuthServerConfigurer.java" />
+        <option value="$PROJECT_DIR$/reservation-business-services/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/auth-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/room-services/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/room-services/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/room-services/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -213,72 +342,84 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reservation-business-services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reservation-business-services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reservation-business-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reservation-business-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reservation-business-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reservationbusinessservices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="roomservices" type="462c0819:PsiDirectoryNode" />
+              <item name="baeldung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="baeldung" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="baeldung" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="baeldung" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +431,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -302,10 +443,17 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rahoof.services.room.roomservices.config" />
+      <recent name="com.rahoof.business.reservation.reservationbusinessservices.config" />
+      <recent name="com.rahoof.zull" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/zuul-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/admin-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices" />
       <recent name="$PROJECT_DIR$/room-services/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/room-services/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,9 +472,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.22059898" />
+    <option name="contentProportion" value="0.24067064" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RoomServicesApplication">
+  <component name="RunManager" selected="Spring Boot.AdminServerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -374,26 +522,26 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.rahoof.service.config.configserver.*" />
+          <option name="PATTERN" value="com.rahoof.admin.adminserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahoof.service.config.configserver.ConfigServerApplication" />
-      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahoof.admin.adminserver.AdminServerApplication" />
+      <module name="admin-server" />
       <envs />
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.rahoof.service.discovery.eurekaserver.*" />
+          <option name="PATTERN" value="com.baeldung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahoof.service.discovery.eurekaserver.EurekaServerApplication" />
-      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baeldung.AuthResourceApplication" />
+      <module name="auth-resource" />
       <envs />
     </configuration>
     <configuration name="ReservationBusinessServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -435,6 +583,17 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahoof.zipkin.ZipkinServerApplication" />
       <module name="zipkin-server" />
+      <envs />
+    </configuration>
+    <configuration name="ZoolServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baeldung.ZoolServerApplication" />
+      <module name="zuul-service" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -532,20 +691,22 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.StreamkafkaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZipkinServerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.AuthResourceApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ZoolServerApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ReservationBusinessServicesApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.RoomServicesApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.AdminServerApplication" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RoomServicesApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ReservationBusinessServicesApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZoolServerApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AuthResourceApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ReservationBusinessServicesApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.RoomServicesApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.AdminServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -578,6 +739,14 @@
       <workItem from="1532536041214" duration="831000" />
       <workItem from="1532618806113" duration="4000" />
       <workItem from="1532798197863" duration="486000" />
+      <workItem from="1533055685043" duration="665000" />
+      <workItem from="1533144089593" duration="123000" />
+      <workItem from="1533227509835" duration="49538000" />
+      <workItem from="1533745724332" duration="734000" />
+      <workItem from="1535718269602" duration="687000" />
+      <workItem from="1536076301907" duration="1203000" />
+      <workItem from="1536173023448" duration="4000" />
+      <workItem from="1536173236614" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="Sleuth for logging">
       <created>1531771889945</created>
@@ -607,11 +776,32 @@
       <option name="project" value="LOCAL" />
       <updated>1531857854737</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Admin server">
+      <created>1533366288941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533366288941</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Admin server">
+      <created>1533366356172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533366356172</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Admin server">
+      <created>1533366493342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533366493342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40191000" />
+    <option name="totallyTimeSpent" value="93681000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -624,9 +814,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4488189" sideWeight="0.30457935" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -635,17 +826,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32722145" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32620922" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56276447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4358251" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39492244" sideWeight="0.6954207" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43441465" sideWeight="0.4978701" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32722145" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35479257" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -656,51 +847,50 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32722145" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56276447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4358251" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32722145" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -708,7 +898,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sleuth for logging" />
     <MESSAGE value="Zipkin and sleuth for logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zipkin and sleuth for logging" />
+    <MESSAGE value="Admin server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin server" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,8 +917,68 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/filters/SimpleFilter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/controller/CloudSiteController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/AuthServerConfigurer.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/config/ResourceConfigurer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/config/ResourceConfigurer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/config/ResourceConfigurer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/controller/PersonInfoController.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -740,55 +992,264 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/room-services/pom.xml">
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Microservices_notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java">
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/room-services/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Microservices_notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/RoomReservationController.java">
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/java/com/rahoof/services/room/roomservices/RoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room-services/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation-business-services/src/main/java/com/rahoof/business/reservation/reservationbusinessservices/config/ResourceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/static/tile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/static/js/vendor/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/rahoof/zull/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubkey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/controller/CloudSiteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/config/SiteSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-client/src/main/java/com/baeldung/filters/SimpleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-client/src/main/resources/templates/personinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/AuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/baeldung/config/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-resource/src/main/java/com/baeldung/controller/PersonInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +1306,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>zipkin-server</last-edited>
+          <last-edited>auth-resource</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
