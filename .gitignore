@@ -4,3 +4,4 @@ generated/
 build/
 .gradle/
 .idea/
+.class
