@@ -1,0 +1,6 @@
+*.iml
+.git/
+generated/
+build/
+.gradle/
+.idea/
